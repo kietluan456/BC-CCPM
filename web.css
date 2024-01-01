@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    
+}
+body {
+    background-color: rgb(234 239 245);
+}
+.menu {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.img-logo {
+    padding-left: 10px;
+    padding-right: 20px;
+    background-color: black;
+}
+.logo {
+    height: 80px;
+    border-radius:40px 40px;
+}
+
+.banners {
+    margin-left: 0px;
+}
+.banner {
+    height: 400px;
+    width:  100%;
+}
+.mn{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: black;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+
+.dishs {
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+/*=======================================================================*/
+
+/*=======================================================================*/
+.dish-pic {
+    height: 250px;
+    width: 333px;
+    margin: 2px;
+    box-shadow: 1px 1px black;
+}
+
+
+
+h1 {
+    margin: 20px 0px;
+}
+
+.dish {
+
+    justify-content: center;
+    max-width: fit-content;
+    border: 1px solid black;
+    margin: 5px 10px;
+
+    
+}
+
+.title {
+    padding: 10px 10px;
+    
+}
+.price {
+    margin-top: 5px;
+}
+
+.dish-name {
+    font-size: 25px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.list-dish {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /*gap: 20px;*/
+    justify-items: center;
+}
+
+
+
+
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 50px 10px;
+}
+
+.loca .time .comp {
+    margin: 20px 20px;
+}
+h5 {
+    font-size: 20px;
+}
+
