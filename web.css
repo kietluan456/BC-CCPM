@@ -47,7 +47,27 @@ body {
 }
 
 /*=======================================================================*/
+.mn:hover {
+    color: red;
+}
 
+
+.pic {
+    display: block;
+    overflow: hidden;
+}
+.dish-pic:hover {
+    transform: scale(1.05);
+}
+
+
+
+.dish:hover {
+    box-shadow: 2px 2px rgb(43, 39, 39);
+    .dish-name {
+        color: red;
+    }
+}
 /*=======================================================================*/
 .dish-pic {
     height: 250px;
