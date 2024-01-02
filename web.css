@@ -47,7 +47,7 @@ body {
 }
 
 /*=======================================================================*/
-.mn:hover {
+.mn .aa:hover {
     color: red;
 }
 
@@ -115,7 +115,11 @@ span {
     justify-items: center;
 }
 
-
+.aa{
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+}
 
 
 
